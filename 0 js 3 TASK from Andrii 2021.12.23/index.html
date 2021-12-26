@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task 20211225</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1><span class="yellow">JavaScript</span> и формы</h1>
+        <h3>Задание от 20211225</h3>
+        <div class="form">
+            <form id="form" name="main" class="form__body" action="#">
+                <h1 class="form__title">Отправка данных в Local storage</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Имя*:</label>
+                    <input id="formName" type="text" placeholder="Имя" name="name" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <label for="formPhoneNumb" class="form__label">Номер телефона*:</label>
+                    <input id="formPhoneNumb" type="tel" placeholder="0xx-xxx-xx-xx" name="phoneNumb" class="form__input _req js-phone-input">
+                </div>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script_index.js"></script>
+</body>
+</html>
